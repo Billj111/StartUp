@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SomeParentComponent } from './components/some-parent/some-parent.component';
+import { SomeTableComponent } from './components/some-table/some-table.component';
+import { PaginatorComponent } from './components/paginator/paginator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SomeParentComponent,
+    SomeTableComponent,
+    PaginatorComponent
   ],
   imports: [
     BrowserModule,
